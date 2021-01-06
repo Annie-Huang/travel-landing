@@ -153,6 +153,9 @@
     font-size: 24px;
     color: #111;
 }
+.menu ul li a:hover {
+    color: var(--overlay-color);
+}
 
 @media(max-width: 991px) {
 	.showcase,
