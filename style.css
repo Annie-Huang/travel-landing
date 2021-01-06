@@ -21,7 +21,15 @@
 	z-index: 2; /* to be on top of the menu */
 }
 .showcase header {
-
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 40px 100px; /* the 100px will make it vertically align with .text as .showcase is also in padding 100px */
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .toggle {
