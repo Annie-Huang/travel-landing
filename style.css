@@ -130,6 +130,26 @@
 	transform: scale(0.5) translateY(-15px);
 }
 
+.menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px; /* the amount of the .showcase.active state */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu ul {
+    position: relative;
+    list-style: none;
+}
+.menu ul li a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #111;
+}
+
 @media(max-width: 991px) {
 	.showcase,
 	.showcase header {
