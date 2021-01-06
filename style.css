@@ -43,6 +43,10 @@
 	background-size: 30px;
 	cursor: pointer;
 }
+.toggle.active {
+	background: url("./img/close.png") no-repeat center;
+	background-size: 25px;
+}
 
 .menu {
 }
