@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 
+:root {
+    --overlay-color: #03a9f4;
+}
+
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -68,7 +72,7 @@
 	height: 100%;
 
 	/* usually we way to do it is: background rgba(0,0,0, 0.5) */
-	background: #03a9f4;
+	background: var(--overlay-color);
 	mix-blend-mode: overlay;
 }
 
